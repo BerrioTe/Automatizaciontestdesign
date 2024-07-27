@@ -1,0 +1,22 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-language" content="en">
+	<meta name="generator" content="testlink">
+	<meta name="author" content="TestLink Development Team">
+	<meta name="copyright" content="TestLink Development Team">
+	<meta name="robots" content="NOFOLLOW">
+	<title>TestLink 1.9.13 (Stormbringer)</title>
+	<meta name="description" content="TestLink - TestLink ::: Página Principal">
+	<link rel="icon" href="https://testdesign.sqasa.co/gui/themes/default/images/favicon.ico" type="image/x-icon">
+</head>
+
+<frameset rows="70,*" frameborder="0" framespacing="0">
+	<frame src="lib/general/navBar.php?tproject_id=0&amp;tplan_id=0&amp;updateMainPage=1" name="titlebar" scrolling="no" noresize="noresize">
+	<frame src="lib/general/mainPage.php" scrolling="auto" name="mainframe">
+	<noframes>
+		<body>TestLink required a frames supporting browser.</body>
+	</noframes>
+</frameset>
+
+
+</html>

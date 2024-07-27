@@ -1,0 +1,113 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-language" content="en">
+	<meta http-equiv="expires" content="-1">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta name="author" content="Martin Havlat">
+	<meta name="copyright" content="GNU">
+	<meta name="robots" content="NOFOLLOW">
+	<base href="https://testdesign.sqasa.co/">
+	<title>TestLink</title>
+	<link rel="icon" href="https://testdesign.sqasa.co/gui/themes/default/images/favicon.ico" type="image/x-icon">
+	
+ 
+	<style media="all" type="text/css">@import "https://testdesign.sqasa.co/gui/themes/default/css/testlink.css";</style>
+
+		
+	  
+	<style media="print" type="text/css">@import "https://testdesign.sqasa.co/gui/themes/default/css/tl_print.css";</style>
+
+ 
+	<script type="text/javascript" src="https://testdesign.sqasa.co/gui/javascript/testlink_library.js" language="javascript"></script>
+	<script type="text/javascript" src="https://testdesign.sqasa.co/gui/javascript/test_automation.js" language="javascript"></script>
+	
+	   
+	
+		<script type="text/javascript" src="https://testdesign.sqasa.co/gui/javascript/sorttable.js" language="javascript"></script>
+	
+
+  	<link rel="stylesheet" href="https://testdesign.sqasa.co/third_party/chosen/chosen.css">
+	<script type="text/javascript" src="https://testdesign.sqasa.co/third_party/jquery/jquery-2.0.3.min.js" language="javascript"></script>
+	<script type="text/javascript" src="https://testdesign.sqasa.co/third_party/chosen/chosen.jquery.js"></script>
+
+	<script type="text/javascript" src="https://testdesign.sqasa.co/third_party/prototype/prototype.js" language="javascript"></script>
+
+	<script type="text/javascript" language="javascript">
+	<!--
+	var fRoot = 'https://testdesign.sqasa.co/';
+	var menuUrl = '';
+	var args  = '';
+	var additionalArgs  = '';
+	
+	// To solve problem diplaying help
+	var SP_html_help_file  = '';
+	
+	//attachment related JS-Stuff
+	var attachmentDlg_refWindow = null;
+	var attachmentDlg_refLocation = null;
+	var attachmentDlg_bNoRefresh = false;
+	
+	// bug management (using logic similar to attachment)
+	var bug_dialog = new bug_dialog();
+
+	// for ext js
+	var extjsLocation = 'third_party/ext-js';
+	
+	//-->
+	</script> 
+
+
+<script type="text/javascript">
+window.onload=function()
+{
+  focusInputField('login');
+}
+</script>
+</head>
+<body class="landing" style="">
+
+<div class="login_form medium" id="login_div">
+  <div class="login_title">
+<p><img alt="Company logo" title="logo" src="gui/themes/default/images/logo-sqa-transparente-login.png">
+   <br>1.9.13 (Stormbringer)</p>
+</div>
+    <form method="post" name="login_form" action="login.php">
+                       <input type="hidden" name="CSRFName" id="CSRFName" value="CSRFGuard_1486854897">
+                       <input type="hidden" name="CSRFToken" id="CSRFToken" value="d5d1d31b25433115f1905c6bc69a9f3a32d54e59ee3f656715eef6d76021fdaf42c22be827e40be48e033882b85bda0ea8cd4633b19f0aa7e6a718f2880ad6bb">
+          
+      <div class="messages_rounded" style="width:100%;text-align:center;border-radius: 5px;">BIENVENIDOS
+                     <br>Herramienta para el Diseño de Casos de Prueba
+                     <br>Software Quality Assurance - SQA S.A
+                     <br>www.sqasa.com</div>
+      <input type="hidden" name="reqURI" value="">
+      <input type="hidden" name="destination" value="">
+      <div class="messages_rounded" style="width:100%;border-radius: 5px;">
+
+      <p class="label">Usuario<br>
+      <input type="text" name="tl_login" id="login" size="32" style="height: 18px;" maxlength="30" required="">
+    </p>
+      <p class="label">Contraseña<br>
+      <input type="password" name="tl_password" size="32" maxlength="32" style="height: 18px;" required="">
+    </p>
+
+    <input type="submit" name="login_submit" class="big_button" value="Iniciar sesión">
+    </div>
+    </form>
+  
+  <p>
+    
+      
+      <a href="http://autopass.sqasa.com/">Contraseña Olvidada</a>
+  </p>
+    
+  <p>
+Proyecto TestLink <a href="http://testlink.sourceforge.net/">Inicio</a><br>
+TestLink está licenciado bajo las condiciones de la licencia <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>
+</p>
+
+
+    
+  
+</div>
+
+</body></html>
